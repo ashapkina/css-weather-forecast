@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i');
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+html {
+	border: 15px solid #2b81ac;
+}
+
+*{
+	color: #fff;
+	margin: 0;
+	box-sizing: border-box;
+}	
+
+body {
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	padding: 0;
+	margin: 0;
+	background: #3399cc;
+}
+
+main {
+	width: 60%;
+	margin: 0 auto;
+	/* position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%); */
+	}
+h1, footer {
+	text-align: left;
+	
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-size: 0;
+	box-sizing: border-box;
+	border: 3px solid #fff;
+	background: #fff;
+	}
+
+ul li {
+	display: inline-block;
+	font-size: 16px;
+	text-align: center;
+	border: 3px solid #fff;
+	box-sizing: border-box;
+	padding: 20px 0; 
+	transition: opasity .5s ease;
+}
+
+
+.city__small {
+	width: 25%;
+
+}
+
+.city__medium {
+	width: 50%;
+
+}
+
+.city__lardge {
+	
+	width: 100%;
+
+}
+h1 {
+	font-size: 34px;
+	padding: 20px 0;
+}
+li p {
+	font-size: 28px;
+}
+span, i {
+	opacity: .8;
+}
+footer {
+	padding: 20px 0;
+}
+.city__one {
+	background: #3399CC;
+}
+.city__two {
+	background: #33CCCC;
+}
+.city__three {
+	background: #996699;
+}
+.city__four {
+	background: #C24747;
+}
+.city__five {
+	background: #E2674A;
+}
+.city__six {
+	background: #FFCC66;
+}
+.city__seven {
+	background: #99CC99;
+}
+.city__eight {
+	background: #669999;
+}
+.city__nine {
+	background: #CC6699;
+}
+.city__ten {
+	background: #339966;
+}
+.city__eleven {
+	background: #666699;
+}
+ul:hover li:not(:hover){
+	opacity: .8;
+}
